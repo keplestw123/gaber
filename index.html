@@ -283,6 +283,68 @@
                 color: #007BFF;
             }
 
+            /* Bagian #geografis */
+            #geografis {
+                padding: 4rem 2rem; /* Default untuk desktop */
+            }
+            
+            #geografis h2 {
+                font-size: 2.5rem; /* Ukuran judul default */
+                margin-bottom: 2rem;
+                color: #0056b3;
+            }
+            
+            #geografis p {
+                font-size: 1.5rem;
+                line-height: 1.6;
+                color: #333;
+                margin-top: 1rem;
+            }
+            
+            #geografis ul {
+                list-style-type: none;
+                padding-left: 0;
+                margin-left: 20px;
+            }
+            
+            #geografis li {
+                font-size: 1.2rem;
+                margin-bottom: 1rem;
+                color: #333;
+            }
+            
+            /* Media query untuk tampilan tablet */
+            @media (max-width: 768px) {
+                #geografis {
+                    padding: 3rem 1.5rem;
+                }
+                #geografis h2 {
+                    font-size: 2rem;
+                }
+                #geografis p {
+                    font-size: 1.3rem;
+                }
+                #geografis li {
+                    font-size: 1.1rem;
+                }
+            }
+            
+            /* Media query untuk tampilan ponsel */
+            @media (max-width: 480px) {
+                #geografis {
+                    padding: 2rem 1rem; /* Padding lebih kecil untuk ponsel */
+                }
+                #geografis h2 {
+                    font-size: 1.8rem; /* Ukuran judul lebih kecil di ponsel */
+                }
+                #geografis p {
+                    font-size: 1.2rem;
+                }
+                #geografis li {
+                    font-size: 1rem;
+                }
+            }
+
             /* Bagian #map-container */
             #map-container {
                 width: 100%;
