@@ -185,6 +185,65 @@
                         margin: 15px 0;
                     }
                 }
+
+            
+            /* Hero Section */
+            .hero {
+                background: url('images/bg.png') no-repeat center center/cover;
+                color: #fff;
+                text-align: center;
+                padding: 5rem 2rem;
+                background-size: cover;
+                background-position: center center;
+                height: 100vh;
+                position: relative;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+            }
+
+            .hero h1 {
+                font-size: 3.5rem;
+                margin-bottom: 1.5rem;
+                font-weight: bold;
+                letter-spacing: 2px;
+                text-transform: uppercase;
+            }
+
+            .hero p {
+                font-size: 1.5rem;
+                margin-bottom: 2rem;
+                line-height: 1.6;
+                max-width: 700px;
+                text-align: center;
+                font-style: italic;
+            }
+
+            .cta-button {
+                display: inline-block;
+                padding: 0.8rem 2rem;
+                background-color: #333;
+                color: #fff;
+                text-decoration: none;
+                font-weight: bold;
+                border-radius: 50px;
+                font-size: 1.2rem;
+                transition: all 0.3s ease;
+                text-transform: uppercase;
+                letter-spacing: 1px;
+            }
+
+            .cta-button:hover {
+                background-color: #555;
+                transform: translateY(-3px);
+                box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+            }
+
+            .cta-button:active {
+                transform: translateY(1px);
+            }
             
         </style>
     </head>
@@ -209,7 +268,14 @@
                         </ul>
                     </nav>
             </header>
-
+    <!-- Beranda Section -->
+            <section id="beranda">
+                <div class="hero">
+                    <h1>Selamat Datang di Desa Seliling</h1>
+                    <p>Seliling adalah sebuah desa di kecamatan Alian, Kebumen, Jawa Tengah, Indonesia. Desa Seliling berjarak sekitar 7 km dari pusat pemerintahan Kabupaten Kebumen, dan 7 km dari kecamatan Alian. Luas wilayah Desa Seliling adalah 2,41 km². Jumlah penduduk Desa Seliling adalah sekitar 5.235 jiwa yang terdiri dari 2.620 jiwa laki-laki dan 2.615 jiwa perempuan.</p>
+                    <a href="#geografis" class="cta-button">Lihat Peta</a>
+                </div>
+            </section>
 
 
 
